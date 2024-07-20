@@ -1,0 +1,57 @@
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.622);
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description h4 {
+    margin: 10px 0;
+    font-weight: normal;
+  }
+  
+  .description .light {
+    font-weight: lighter;
+  }
+  
+  .buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #555;
+  }
+  

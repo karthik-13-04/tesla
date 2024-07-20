@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Model3 from './components/Model3';
+import ModelX from './components/ModelX';
+import ModelS from './components/ModelS';
+import SolarPanels from './components/SolarPanels';
+import SolarRoof from './components/SolarRoof';
+import Powerwall from './components/Powerwall';
+import Accessories from './components/Accessories';
+import Footer from './components/Footer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Model3 />
+      <Powerwall />
+      <Accessories />
+      <ModelX />
+      <ModelS />
+      <SolarPanels />
+      <SolarRoof />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent; /* Ensure the navbar has a transparent background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure navbar is on top of other content */
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #555;
+}
+
+.navbar-icons {
+  display: flex;
+}
+
+.navbar-icons .icon {
+  font-size: 1.5em;
+  color: rgb(12, 12, 12);
+  margin-left: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-icons .icon:hover {
+  color: #555;
+}
